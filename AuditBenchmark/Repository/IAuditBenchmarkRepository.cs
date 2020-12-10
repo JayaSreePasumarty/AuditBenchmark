@@ -9,9 +9,11 @@ namespace AuditBenchmark.Repository
 {
     public interface IAuditBenchmarkRepository
     {
-                   
-           public List<AuditBenchmarkModel> GetAll();
-            
+
+        public List<AuditBenchmarkModel> GetAll();
         
+
+
+
     }
 }

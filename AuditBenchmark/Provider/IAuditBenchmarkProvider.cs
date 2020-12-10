@@ -9,6 +9,5 @@ namespace AuditBenchmark.Provider
     public interface IAuditBenchmarkProvider
     {
         List<AuditBenchmarkModel> GetAll();
-        AuditBenchmarkModel Answers(AuditBenchmarkModel entity);
     }
 }

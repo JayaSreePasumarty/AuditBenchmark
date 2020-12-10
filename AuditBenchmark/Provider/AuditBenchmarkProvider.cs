@@ -15,15 +15,11 @@ namespace AuditBenchmark.Provider
             _auditbenchmarkservice = auditbenchmarkservice;
         }
 
-        public AuditBenchmarkModel Answers(AuditBenchmarkModel entity)
-        {
-            throw new NotImplementedException();
-        }
+         public List<AuditBenchmarkModel> GetAll()
+         {
+             return _auditbenchmarkservice.GetAll();
+         }
 
-        public List<AuditBenchmarkModel> GetAll()
-        {
-            return _auditbenchmarkservice.GetAll();
-        }
-
+       
     }
 }

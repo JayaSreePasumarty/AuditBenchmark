@@ -14,7 +14,7 @@ namespace AuditBenchmark.Controllers
     [ApiController]
     public class AuditBenchmarkController : ControllerBase
     {
-        //static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(AuthBenchmarkController));
+        static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(AuditBenchmarkController));
 
         private readonly IAuditBenchmarkProvider _auditbenchmarkprovider;
         
@@ -24,17 +24,17 @@ namespace AuditBenchmark.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAll()
+        public IActionResult Get()
         {
             try
             {
-                //_log4net.Info("Http get request initiated with " + AuditType);
+                _log4net.Info("Http get request initiated ");
                 var result = _auditbenchmarkprovider.GetAll();
                 return Ok(result);
             }
             catch (Exception e)
             {
-               // _log4net.Error("No content Obtained " + e.Message);
+                _log4net.Error("No content Obtained " + e.Message);
                 return new NoContentResult();
             }
         }

@@ -131,7 +131,6 @@ C:\Users\HARSHA\Source\Repos\MFPE\AuditBenchmark\bin\Debug\netcoreapp3.1\runtime
 C:\Users\HARSHA\Source\Repos\MFPE\AuditBenchmark\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\HARSHA\Source\Repos\MFPE\AuditBenchmark\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\HARSHA\Source\Repos\MFPE\AuditBenchmark\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\HARSHA\Source\Repos\MFPE\AuditBenchmark\obj\Debug\netcoreapp3.1\AuditBenchmark.csprojAssemblyReference.cache
 C:\Users\HARSHA\Source\Repos\MFPE\AuditBenchmark\obj\Debug\netcoreapp3.1\AuditBenchmark.AssemblyInfoInputs.cache
 C:\Users\HARSHA\Source\Repos\MFPE\AuditBenchmark\obj\Debug\netcoreapp3.1\AuditBenchmark.AssemblyInfo.cs
 C:\Users\HARSHA\Source\Repos\MFPE\AuditBenchmark\obj\Debug\netcoreapp3.1\AuditBenchmark.csproj.CoreCompileInputs.cache
@@ -145,3 +144,6 @@ C:\Users\HARSHA\Source\Repos\MFPE\AuditBenchmark\obj\Debug\netcoreapp3.1\AuditBe
 C:\Users\HARSHA\Source\Repos\MFPE\AuditBenchmark\obj\Debug\netcoreapp3.1\AuditBenchmark.dll
 C:\Users\HARSHA\Source\Repos\MFPE\AuditBenchmark\obj\Debug\netcoreapp3.1\AuditBenchmark.pdb
 C:\Users\HARSHA\Source\Repos\MFPE\AuditBenchmark\obj\Debug\netcoreapp3.1\AuditBenchmark.genruntimeconfig.cache
+C:\Users\HARSHA\Source\Repos\MFPE\AuditBenchmark\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\HARSHA\Source\Repos\MFPE\AuditBenchmark\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\HARSHA\Source\Repos\MFPE\AuditBenchmark\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
